@@ -28,7 +28,7 @@ body {
 
 .container {
     margin: 0 auto;
-    width: 90%;
+    width: 80%;
 }
 
 nav {
@@ -69,29 +69,35 @@ a {
     background-color: var(--primary);
     padding: 5rem 0;
     height: 100vh;
+    
 }
 
 .grid-container {
     display: flex;
     justify-content: space-between;
+    width: 100%;
 }
 
 .hero-text-box {
-    width: 515px;
+   margin-top: 1rem;
 }
 
 .hero-title {
     font-size: 2.5rem;
     color: #fff;
     margin-bottom: 1rem;
+    font-weight: bold;
 }
 
 .hero-description {
     font-size: 1rem;
     color: #fff;
     line-height: 2rem;
-    margin-bottom: 2rem;
     width: 100%;
+}
+
+.btn-container {
+    margin: 60px 0px;
 }
 
 .btn {
@@ -104,15 +110,9 @@ a {
     border-radius: 0.3rem;
 }
 
-.img-wrapper {
-    flex: 1;
-    width: 515px;
-    align-self: flex-end;
-}
-
 .hero-img {
     height: 399px;
-    /* width: 419px; */
+    width: 419px;
 }
 
 
